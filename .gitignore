@@ -1,0 +1,11 @@
+# Obsidian local state (safe to ignore)
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Optional trash folder used by Obsidian
+.trash/
