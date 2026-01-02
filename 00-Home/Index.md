@@ -24,4 +24,6 @@ tags: #index
 ## Execution
 - [[04-Execution/Backlog|Backlog]]
 - [[04-Execution/Sprint|Sprint]]
+- [[04-Execution/Agent-Sessions/Agent-Sessions-Index|Agent Sessions Index]]
+- [[04-Execution/Agents/Triad-Workflow|Triad Workflow]]
 - [[04-Execution/Checklists/Release-Checklist|Release Checklist]]

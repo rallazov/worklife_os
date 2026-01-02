@@ -1,4 +1,4 @@
-# Home
++# Home
 tags: #home
 
 ## Now (Top 3)
@@ -23,4 +23,6 @@ tags: #home
 - [[02-Engineering/Architecture/Entity-Extraction|Entity Extraction]]
 
 ## Recent Agent Sessions
+- [[04-Execution/Agent-Sessions/Agent Session - Workbench Filter Truth Model - 2026-01-01|Workbench Filter Truth Model (2026-01-01)]]
+- [[04-Execution/Agent-Sessions/Agent-Sessions-Index|Agent Sessions Index]]
 - (add links in: 04-Execution/Agent-Sessions/)

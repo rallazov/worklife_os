@@ -1,7 +1,8 @@
-# Agent Session - <Topic> - YYYY-MM-DD
+# Agent Session
 tags: #agent
 
 ## Goal
+## Topic
 ## Prompt(s)
 ## Output Summary
 ## Decisions
