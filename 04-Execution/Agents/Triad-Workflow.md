@@ -9,6 +9,7 @@ Use 3 agents to reduce blind spots while keeping context small.
 - Agent 1: Product + Business + Delivery
 - Agent 2: UX + Frontend (Experience)
 - Agent 3: Architecture + Backend (System)
+- Agent 4: Implementation + Execution (Builder) [Non-voting]
 
 ## Session roles (rotate every session)
 - Primary: drafts the first proposal

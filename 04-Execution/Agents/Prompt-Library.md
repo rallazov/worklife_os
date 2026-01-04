@@ -7,9 +7,9 @@ tags: #agent #prompts
 - Session template: [[04-Execution/Agent-Sessions/Agent-Session-Triad-Template|Agent Session (Triad) Template]]
 
 ## Session (current)
-- Obsidian: [[04-Execution/Agent-Sessions/Agent Session - Workbench Filter Truth Model - 2026-01-01|Workbench Filter Truth Model session]]
-- File path: /home/ramin/Documents/worklife_os/04-Execution/Agent-Sessions/Agent Session - Workbench Filter Truth Model - 2026-01-01.md
-- Obsidian URL: obsidian://open?vault=worklife_os&file=04-Execution%2FAgent-Sessions%2FAgent%20Session%20-%20Workbench%20Filter%20Truth%20Model%20-%202026-01-01
+- Obsidian: [[04-Execution/Agent-Sessions/Agent Session - Office Document Support - 2026-01-04|Office Document Support session]]
+- File path: /home/ramin/Documents/worklife_os/04-Execution/Agent-Sessions/Agent Session - Office Document Support - 2026-01-04.md
+- Obsidian URL: obsidian://open?vault=worklife_os&file=04-Execution%2FAgent-Sessions%2FAgent%20Session%20-%20Office%20Document%20Support%20-%202026-01-04
 
 ## Session-first rule
 When prompting an agent, always include:
@@ -70,11 +70,12 @@ If a decision is durable, create an ADR and link it.
 ## Execution Pass (optional)
 This is a builder pass (implementation/execution), not a 4th deliberation agent.
 
-### Builder prompt (Claude Code / Gemini / Cursor / etc.)
-You are the Builder (Implementation + Execution).
+### Agent 4 prompt (Implementation + Execution)
+You are Agent 4 (Implementation + Execution).
 Read:
 - Prompt library (current session pointer): /home/ramin/Documents/worklife_os/04-Execution/Agents/Prompt-Library.md
 - Session note: open the note linked under “## Session (current)” at the top of Prompt Library.
+- Role Definition: [[04-Execution/Agents/Agent-4-Implementation-Execution|Agent 4]]
 
 Rules:
 - Implement the session’s accepted decisions and the linked SPEC/ADR.
@@ -82,14 +83,7 @@ Rules:
 - If you must change the contract, write a “Change Request” (with rationale + options) and stop.
 
 Append under “Execution Pass — Implementation + Execution”.
-Output bullets for:
-- implementation plan
-- files to create/modify
-- API/data/migration changes
-- tests/verification steps
-- rollout notes
-- risks/blockers
-- change requests (if any)
+Output based on "Default output format" in Agent 4 definition.
 
 ## Review Gate (post-implementation)
 
