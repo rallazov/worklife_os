@@ -232,12 +232,28 @@ All 3 agents aligned. Key synthesis:
   - Use magic bytes for mime detection, not just extension
 
 ## Execution Pass — Implementation + Execution (optional)
-- Builder:
+- Builder: Codex CLI (GPT-5)
 - Implementation plan:
+  - Backend: add text extraction service, files router, analyze-text endpoint, extract_from_text prompt, env var, dependencies.
+  - Frontend: add FileImportModal, API methods, Workbench import button, WorkItemDrawer initialDraft support.
 - Files changed:
-- Tests / verification:
-- Migration / rollout notes:
-- Change Requests (if any):
+  - application-tracker/backend/services/text_extraction.py
+  - application-tracker/backend/routers/files.py
+  - application-tracker/backend/routers/ai_router.py
+  - application-tracker/backend/services/ai_service.py
+  - application-tracker/backend/extractors/gpt_parser.py
+  - application-tracker/backend/main.py
+  - application-tracker/backend/env.example
+  - application-tracker/backend/requirements.txt
+  - application-tracker/backend/tests/test_text_extraction.py
+  - application-tracker/frontend/src/components/FileImportModal.tsx
+  - application-tracker/frontend/src/components/WorkItemsView.tsx
+  - application-tracker/frontend/src/components/WorkItemDrawer.tsx
+  - application-tracker/frontend/src/api/workItems.ts
+  - application-tracker/requirements.txt
+- Tests / verification: Not run (manual verification recommended).
+- Migration / rollout notes: None.
+- Change Requests (if any): None.
 
 ## Review Gate (Triad)
 - Agent 1 (AC/value):
