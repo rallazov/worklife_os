@@ -258,8 +258,8 @@ All 3 agents aligned. Key synthesis:
 ## Review Gate (Triad)
 - Agent 1 (AC/value):
 - Agent 2 (UX/accessibility):
-- Agent 3 (architecture/security):
-- Decision:
+- Agent 3 (architecture/security): PASS - aligned with triad decisions; magic-byte detection, .xls blocked, error codes, ephemeral; pandas not used for extraction (requirements retains pre-existing pandas).
+- Decision: Ready for testing (tests not run in this pass).
 
 ## Links / References
 - `application-tracker/backend/services/document_service.py`
