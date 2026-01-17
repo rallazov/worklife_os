@@ -8,7 +8,8 @@ tags: #agent #index
 - Decisions: [[02-Engineering/Decisions/ADR-Index|ADR Index]]
 
 ## Sessions
-- [[04-Execution/Agent-Sessions/Agent Session - Waterfall Domain Classification & UX Refinement - 2026-01-06|Waterfall Domain Classification & UX Refinement (2026-01-06)]] ← current
+- [[04-Execution/Agent-Sessions/Agent Session - Documents Supabase Storage - 2026-01-10|Documents Supabase Storage (2026-01-10)]] ← current
+- [[04-Execution/Agent-Sessions/Agent Session - Waterfall Domain Classification & UX Refinement - 2026-01-06|Waterfall Domain Classification & UX Refinement (2026-01-06)]]
 - [[04-Execution/Agent-Sessions/Agent Session - WorkItemsView Refactor Plan - 2026-01-04|WorkItemsView Refactor Plan (2026-01-04)]]
 - [[04-Execution/Agent-Sessions/Agent Session - Office Document Support - 2026-01-04|Office Document Support (2026-01-04)]]
 - [[04-Execution/Agent-Sessions/Agent Session - Documents Upload UI Rules - 2026-01-04|Documents Upload UI Rules (2026-01-04)]]
